@@ -12,6 +12,8 @@
 4. 保存后等待 1~3 分钟，访问：
    - `https://<your-username>.github.io/Accompany-YOU/`
 
+> 将 `<your-username>` 替换为你的 GitHub 用户名；如果你在本仓库直接操作，可用 `NienLiu`。
+
 > 这是最适合“直接体验前端界面”的方式：页面可点击、可交互。
 
 ### 方式 B：直接在仓库里查看页面文件
@@ -59,6 +61,8 @@ git clone https://github.com/<your-username>/Accompany-YOU.git
 cd Accompany-YOU
 python3 -m http.server 5500
 ```
+
+> 同样将 `<your-username>` 替换为你的 GitHub 用户名；本仓库示例可写为 `NienLiu`。
 
 浏览器打开：`http://localhost:5500`
 
