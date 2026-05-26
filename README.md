@@ -10,7 +10,7 @@
 2. `Source` 选择 `Deploy from a branch`
 3. 分支选择 `main`，目录选择 `/ (root)`（或你前端所在目录）
 4. 保存后等待 1~3 分钟，访问：
-   - `https://nienliu.github.io/Accompany-YOU/`
+   - `https://<your-username>.github.io/Accompany-YOU/`
 
 > 这是最适合“直接体验前端界面”的方式：页面可点击、可交互。
 
@@ -55,7 +55,7 @@
 如果项目是静态前端（如 `index.html`）：
 
 ```bash
-git clone https://github.com/NienLiu/Accompany-YOU.git
+git clone https://github.com/<your-username>/Accompany-YOU.git
 cd Accompany-YOU
 python3 -m http.server 5500
 ```
@@ -70,6 +70,3 @@ npm run dev
 ```
 
 ---
-
-如果你希望，我可以继续补一份：  
-- “仓库文件路径 → 对应页面功能”的逐文件导航清单（更适合第一次接手项目的人）。
